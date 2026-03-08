@@ -3,8 +3,7 @@ on:
   push:
     branches:
       - dev
-   schedule:
-    # 这里自己修改吧, 暂时注释了
+    schedule:
     - cron: "0 12 * * *"
   workflow_dispatch:
 
